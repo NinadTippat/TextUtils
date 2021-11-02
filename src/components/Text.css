@@ -1,0 +1,14 @@
+@media all and (max-width:427px) {
+    .btn{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 10px;
+        justify-content: start;
+        align-items: flex-start;
+        margin-left: 0px;
+        margin-right: 0px;
+        ;
+    }
+}
+.btn{
+    margin-left: 5px;}
