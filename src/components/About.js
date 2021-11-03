@@ -1,4 +1,5 @@
-import React, {useState} from 'react'
+import React from 'react'
+import "./About.css"
 
 export default function About(props) {
 
@@ -78,7 +79,7 @@ export default function About(props) {
                     <div className="accordion-body" style={                                //style={myStyle} 
                         {backgroundColor:props.mode==='light'?'white':'#062d53',
                         color:props.mode==='light'?'#212530':'white'}}>
-                        <strong>TextUtils - Manipulate Your Text</strong>This website is developed by Mr Ninad Satish Tippat. It is developed with HTML, CSS, JavaScript and React. For Hosting purpose we use Google Firebase.
+                        <strong>TextUtils - Manipulate Your Text: </strong>This website is developed by Mr Ninad Satish Tippat. It is developed with HTML, CSS, JavaScript and React. For Hosting purpose we use Google Firebase.
                     </div>
                     </div>
                 </div>

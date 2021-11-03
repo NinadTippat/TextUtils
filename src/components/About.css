@@ -1,0 +1,9 @@
+/* @media all and (max-width:427px) {
+    .accordion-item{
+        border: 2px solid white;
+    }
+} */
+
+.accordion-item{
+    border: 2px solid white;
+}

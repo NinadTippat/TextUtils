@@ -29,17 +29,17 @@ function App() {
   const toggleMode = ()=> {
     if (mode === 'light'){
       setMode('dark');
-      document.body.style.backgroundColor = '#212530'
+      document.body.style.backgroundColor = 'rgb(16 23 43)'
       document.body.style.color = 'white'
       showAlert("Dark mode has been enabled", "success")
-      document.title = 'TextUtils - Dark Mode'
+      // document.title = 'TextUtils - Dark Mode'
     }
     else{
       setMode('light');
-      document.body.style.backgroundColor = 'white'
+      document.body.style.backgroundColor = '#dad7e8'
       document.body.style.color = 'black'
       showAlert("Light mode has been enabled", "success")
-      document.title = 'TextUtils - Light Mode'
+      // document.title = 'TextUtils - Light Mode'
     }
   }
 
@@ -54,7 +54,7 @@ function App() {
              <About mode={mode}/>
            </Route>
            <Route exact path="/">
-            <TextForm showAlert={showAlert}  heading="Enter the text to analyze below:" mode={mode} /> 
+            <TextForm showAlert={showAlert}  heading="Try TextUtils - Word Counter, Character Counter, Remove extra spaces" mode={mode} /> 
            </Route>
         </Switch>
       </div>
