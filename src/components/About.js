@@ -35,22 +35,7 @@ export default function About(props) {
             color:props.mode==='light'?'#212530':'white'}}>
             <h1 my-3>About Us</h1>
             <div className="accordion" id="accordionExample">
-                <div className="accordion-item">
-                    <h2 className="accordion-header" id="headingOne">
-                    <button className="accordion-button" type="button" style={                                //style={myStyle} 
-                    {backgroundColor:props.mode==='light'?'white':'#062d53',
-                    color:props.mode==='light'?'#212530':'white'}} data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Developer
-                    </button>
-                    </h2>
-                    <div id="collapseOne" className="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                    <div className="accordion-body" style={                                //style={myStyle} 
-                        {backgroundColor:props.mode==='light'?'white':'#062d53',
-                        color:props.mode==='light'?'#212530':'white'}}>
-                    <strong>Ninad Satish Tippat:</strong> A full stack web developer is a person who can develop both client and server software. In addition to mastering HTML and CSS, he also knows how to: Program a browser (like using JavaScript, jQuery, React JS, Angular JS or Vue JS) ... Program a database (like using SQL, SQLite, or MongoDB)
-                    </div>
-                    </div>
-                </div>
+               
                 <div className="accordion-item">
                     <h2 className="accordion-header" id="headingTwo">
                     <button className="accordion-button collapsed" type="button" style={                                //style={myStyle} 
@@ -81,6 +66,9 @@ export default function About(props) {
                         color:props.mode==='light'?'#212530':'white'}}>
                         <strong>TextUtils - Manipulate Your Text: </strong>This website is developed by Mr Ninad Satish Tippat. It is developed with HTML, CSS, JavaScript and React. For Hosting purpose we use Google Firebase.
                     </div>
+                    </div>
+                    <div>
+                    
                     </div>
                 </div>
             </div>
